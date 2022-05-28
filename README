@@ -1,0 +1,7 @@
+
+```terraform
+# select a specific tag
+module "my-lambda" {
+  source = "github.com/federico-arias/terraform-aws-lambda?ref=v1.0.0"
+}
+```
